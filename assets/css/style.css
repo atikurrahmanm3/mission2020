@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.header {
+    padding: 0px;
+     background-color: darkcyan;
+}
+
+
+
+
+}
+
+.logo {
+    height: 30px;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/*header section end*/
+
+.home {
+    min-height: 550px;
+    clear: both;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    background-image: url('img/bg_home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*home section end*/
+.service {
+    min-height: 550px;
+    background-color: lightskyblue;
+}
+
+.head {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    background-color: rgba(127, 255, 0, .7);
+}
+
+.service-body {
+    min-height: 500px;
+   
+}
+
+.box {
+
+    margin-top: 20px;
+}
+
+.box:hover {
+
+    box-shadow: 7px 3px 9px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+
+}
+
+.box-icon {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    font-size: 70px;
+    border: 1px dotted black;
+    border-radius: 100%;
+}
+
+.box-icon:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.box-body {
+    text-align: center;
+}
+
+/*services section end*/
+
+.portfolio {
+    min-height: 550px;
+    background-image: url("/img/portfolio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*portfolio section end*/
+
+.about {
+    min-height: 550px;
+    display: flex;
+    font-family: 'Faster One', cursive;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/about-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.image img:hover {
+
+    box-shadow: 7px 3px 9px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+
+}
+
+.text {
+
+    min-height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    height: 30px;
+    font-weight: 900;
+    border-left: 2px solid yellow;
+    text-transform: uppercase;
+    padding-left: 3px;
+    color: aliceblue;
+    line-height: 30px;
+}
+
+.image {
+    min-height: 480px;
+    
+}
+
+/*about section end*/
+
+/*footer-------------------------------start*/
+
+.footer{
+    min-height: 250px;
+    background-color: rgba(31, 25, 25);
+}
+hr{
+    background-color: aqua;
+}
+.media a{
+    text-decoration: none;
+}
+.media a:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.sbox{
+    height: 50px;
+    width: 50px;
+    border:1px solid powderblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.links ul li a{
+    text-decoration: none;
+    
+}
+.links ul {
+    color: cadetblue;
+}
+.link:hover{
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+.name{
+    height: 30px;
+    
+}
+
+/*footer------------------------------end*/
+
